@@ -198,6 +198,7 @@ int main()
 	printf("** Done **\n");
 	freeTree(tree);
 	free(filename);
+	free(tree);  
 
 	getchar();
 
